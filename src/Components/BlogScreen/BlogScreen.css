@@ -1,0 +1,25 @@
+.BlogImages{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 5%;
+   
+}
+.BlogScreen{
+    margin:5%
+}
+img{
+    width: 100%;
+    height: auto;
+}
+ h1{
+    color: chartreuse;
+}
+Blog{
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+hr{
+    color: chartreuse;
+}

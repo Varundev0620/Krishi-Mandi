@@ -1,0 +1,27 @@
+
+.WeatherSection{
+
+}
+
+.WeatherData{
+    background-color: #575454;
+    margin: 5%;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.CurrentLocation{
+
+}
+
+.WeatherTempDetails{
+    display: flex;
+    justify-content: space-around;
+}
+
+.WeatherTemp{
+
+}
+.WeatherDetails{
+
+}
