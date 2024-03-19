@@ -93,12 +93,10 @@ function SingleNavbarWithOffcanvas() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action3">Farming Calculator</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#" >
-              About us
-            </Nav.Link>
-            <Nav.Link href="#" >
-              Contact us
-            </Nav.Link>
+            <Nav.Link href="#About" > About us </Nav.Link>
+            <Nav.Link href="#Contact" >Contact us</Nav.Link>
+              
+            
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -111,7 +109,7 @@ function SingleNavbarWithOffcanvas() {
           </Form>
         </Navbar.Collapse>
       </Container>
-      <Offcanvas
+      {/* <Offcanvas
         placement="end"
         aria-labelledby="offcanvasNavbar"
         show={false} // Set to true to show the offcanvas by default
@@ -134,7 +132,7 @@ function SingleNavbarWithOffcanvas() {
             </Nav.Link>
           </Nav>
         </Offcanvas.Body>
-      </Offcanvas>
+      </Offcanvas> */}
     </Navbar>
   );
 }
