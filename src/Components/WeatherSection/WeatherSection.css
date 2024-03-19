@@ -1,27 +1,76 @@
-
-.WeatherSection{
-
-}
-
-.WeatherData{
-    background-color: #575454;
+.weathercontainer{
+    width: auto;
+    height: auto;
+    background-color:rgb(68, 67, 67);
     margin: 5%;
-    border-radius: 13px;
-    padding: 5px;
+    box-shadow: 1cap;
+    border-radius: 10px;
 }
 
-.CurrentLocation{
-
+.searchbox{
+    justify-content: center;
+    margin: 20px;
 }
 
-.WeatherTempDetails{
-    display: flex;
+button{
+ 
+ color: rgb(68, 67, 67);
+ border-color: black;
+    
+}
+.weatherbox{
+    width: 100%;
+    height: 250px;
+   
     justify-content: space-around;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    
+
+}
+.box1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(227, 203, 203);
+    border-radius: 5px;
+    
+}
+.box2{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(215, 202, 202);
+    border-radius: 5px;
+  
+    
 }
 
-.WeatherTemp{
-
+@media  screen and (max-width:1200px) {
+    .box1{
+        width: 30%;
+    }
+    .box2{
+        width: 60%;
+    }
+    
 }
-.WeatherDetails{
 
+@media screen and (max-width:600px) {
+
+    .box1{
+        width: 90%;
+       
+    }
+    .box2{
+        width: 90%;
+    }
+    
+}
+
+.Details{
+    margin: 5%;
+}
+.ForecastDetails{
+    margin: 3%;
 }
