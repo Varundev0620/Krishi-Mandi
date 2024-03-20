@@ -38,7 +38,7 @@ const Weather = () => {
           
             {/* Search Box */}
           <div class='searchbox' >  
-                  <input  type='text' placeholder='Enter your City'  onChange={(e)=> setSearch(e.target.value)} />
+                  <input  type='text' placeholder='Enter your City ,Town'  onChange={(e)=> setSearch(e.target.value)} />
                          <button onClick={searchpressed}  >Search</button>
           </div>
           {typeof weather.main!="undefined" ? (
