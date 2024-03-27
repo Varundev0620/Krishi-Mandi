@@ -8,6 +8,7 @@
    position: absolute;
    left: 50%;
    transform: translateX(-50%);
+   top: 0;
  }
  
  /* Adjustments for mobile screens */
@@ -19,5 +20,14 @@
      position: absolute;
      right: 0;
    }
+
+   .navbar-brand {
+      top: 0; /* Keep the logo at the top */
+      transform: translate(-50%, 0);
+    }
+
  }
+ 
+
+
  
