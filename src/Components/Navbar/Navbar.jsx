@@ -79,9 +79,9 @@ import logo from './logo.png';
 
 function SingleNavbarWithOffcanvas() {
   return (
-    <Navbar  bg="light" expand="lg" style={{ position:'fixed', width:'100%   ', backgroundColor:"blueviolet" }   } >
+    <Navbar  bg="light" expand="lg" style={{ position:'fixed', width:'100%   ', backgroundColor:"blueviolet",   }   } >
       <Container>
-        <Navbar.Brand href="#">  <img src={logo} alt="IMage"  style={{width:'90px', height:'50px'}} /> </Navbar.Brand>
+        {/* <Navbar.Brand href="#">  <img src={logo} alt="IMage"  style={{width:'90px', height:'50px'}} /> </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Navbar.Collapse id="offcanvasNavbar">
           <Nav className="me-auto">
@@ -96,8 +96,10 @@ function SingleNavbarWithOffcanvas() {
             <Nav.Link href="#About" > About us </Nav.Link>
             <Nav.Link href="#Contact" >Contact us</Nav.Link>
               
-            
+           
           </Nav>
+          <Navbar.Brand href="#" className='mx-auto'>  <img src={logo} alt="IMage"  style={{width:'90px', height:'50px'}} /> </Navbar.Brand>
+         
           <Form className="d-flex">
             <Form.Control
               type="search"
