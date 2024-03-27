@@ -98,7 +98,7 @@ function SingleNavbarWithOffcanvas() {
               
            
           </Nav>
-          <Navbar.Brand href="#" className='mx-auto'>  <img src={logo} alt="IMage"  style={{width:'90px', height:'50px'}} /> </Navbar.Brand>
+          <Navbar.Brand href="#" className='mx-auto'>  <img src={logo} alt="IMage"  style={{width:'90px', height:'70px'}} /> </Navbar.Brand>
          
           <Form className="d-flex">
             <Form.Control
